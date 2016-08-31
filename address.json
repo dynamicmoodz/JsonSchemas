@@ -1,9 +1,9 @@
 { 
 "definitions": {
  "address": {
+ "id": { "type": "string" },
  "type": "object",
  "properties": {
- "id": { "type": "string" },
  "moduleid": { "type": "number" },
  "url": { "type": "string" },
  "atlasExpiryDate": { "type": "string" },
@@ -22,7 +22,7 @@
  "zipcode": { "type": "string" },
  "type": { "enum": [ "residential", "business" ] }
  },
- "required": [ "block", "streetName", "city", "state", "zip", "moduleid" ]
+ "required": [ "block", "streetName", "city", "state", "zipcode", "moduleid" ]
  }
  }
 }
