@@ -1,0 +1,19 @@
+{
+ "definitions": {
+ "incident": {
+ "type": "object",
+ "properties": {
+ "id": { "type": "string" },
+ "moduleid": { "type": "number" },
+ "url": { "type": "string" },
+ "atlasExpiryDate": { "type": "string" },
+ "contributor": { "$ref": "contributor.json#/definitions/contributor" },
+ "date": { "type": "string" },
+ "description": { "type": "string" },
+ "address": { "$ref": "address.json#/definitions/address" },
+ "offenses": { "type": [ { "$ref": "offense.json#/definitions/offense" } ] }
+ },
+ "required": [ "contributor", "address", "moduleid" ]
+ }
+ }
+}

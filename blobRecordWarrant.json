@@ -1,0 +1,17 @@
+{
+  "definitions": {
+    "blobRecordWarrant": {
+      "type": "array",
+      "properties": {
+        "id":  {"type":  "string"},
+        "recordId": { "type": "string" },
+        "dbOperationType": { "type": "string" },
+        "schema": { "type": "string" },
+        "schemaVersion": { "type": "string" },
+        "utcTimeStamp": { "type": "string" },
+        "dataRecord": { "type": { "$ref": "warrant.json#/definitions/warrant" } }
+      },
+      "required": [ "recordId", "dbOperationType", "schema", "schemaVersion", "utcTimeStamp", "dataRecord" ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+ "definitions": {
+ "offense": {
+ "type": "object",
+ "properties": {
+ "id": { "type": "string" },
+ "moduleid": { "type": "string" },
+ "url": { "type": "string" },
+ "atlasExpiryDate": { "type": "string" },
+ "code": { "type": "string" },
+ "description": { "type": "string" },
+ "nibrDescription": { "type": "string" }
+ },
+ "required": [ "code", "description", "moduleid", "nibrDescription" ]
+ }
+ }
+}
