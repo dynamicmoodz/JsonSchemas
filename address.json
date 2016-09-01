@@ -1,7 +1,6 @@
 { 
 "definitions": {
  "address": {
- "id": { "type": "string" },
  "type": "object",
  "properties": {
  "moduleid": { "type": "number" },
