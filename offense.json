@@ -1,6 +1,7 @@
 {
 	"definitions": {
 		"offense": {
+			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/offense.json",
 			"type": "object",
 			"properties": {
 				"moduleId": {

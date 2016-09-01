@@ -1,14 +1,9 @@
 {
 	"definitions": {
 		"address": {
-			"id": {
-				"type": "string"
-			},
+			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/address.json",
 			"type": "object",
 			"properties": {
-				"id": {
-					"type": "string"
-				},
 				"moduleId": {
 					"type": "string"
 				},
