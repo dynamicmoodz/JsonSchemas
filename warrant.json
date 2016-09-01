@@ -1,14 +1,9 @@
 {
 	"definitions": {
 		"warrant": {
-		  "id": {
-					"type": "string"
-				},
+		  "id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/warrant.json",
 			"type": "object",
 			"properties": {
-				"id": {
-					"type": "string"
-				},
 				"moduleId": {
 					"type": "string"
 				},

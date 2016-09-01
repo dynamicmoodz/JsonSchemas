@@ -1,6 +1,7 @@
 {
 	"definitions": {
 		"name": {
+ 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/name.json",
 			"type": "object",
 			"properties": {
 				"moduleId": {
