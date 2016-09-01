@@ -1,7 +1,7 @@
 {
 	"definitions": {
 		"incident": {
- 			"id": { "type": "string" },
+ 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/incident.json",
 			"type": "object",
 			"properties": {
 				"id": {
