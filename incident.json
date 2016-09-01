@@ -1,9 +1,13 @@
 {
 	"definitions": {
 		"incident": {
+ 			"id": { "type": "string" },
 			"type": "object",
 			"properties": {
-				"moduleid": {
+				"id": {
+					"type": "string"
+				},
+				"moduleId": {
 					"type": "number"
 				},
 				"url": {
@@ -28,7 +32,7 @@
 					}
 				}
 			},
-			"required": ["address", "moduleid"]
+			"required": ["address", "moduleId"]
 		}
 	}
 }

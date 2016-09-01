@@ -1,21 +1,44 @@
 {
- "definitions": {
- "name": {
- "type": "object",
- "properties": {
- "id": { "type": "string" },
- "moduleid": { "type": "number" },
- "url": { "type": "string" },
- "atlasExpiryDate": { "type": "string" },
- "firstName": { "type": "string" },
- "middleName": { "type": "string" },
- "lastName": { "type": "string" },
- "fullName": { "type": "string" },
- "suffix": { "type": "string" },
- "image": { "type": "string" },
- "address": { "$ref": "address.json#/definitions/address" }
- },
- "required": [ "firstName", "lastName", "moduleid" ]
- }
- }
+	"definitions": {
+		"name": {
+ 			"id": { "type": "string" },
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"moduleId": {
+					"type": "string"
+				},
+				"url": {
+					"type": "string"
+				},
+				"atlasExpiryDate": {
+					"type": "string"
+				},
+				"firstName": {
+					"type": "string"
+				},
+				"middleName": {
+					"type": "string"
+				},
+				"lastName": {
+					"type": "string"
+				},
+				"fullName": {
+					"type": "string"
+				},
+				"suffix": {
+					"type": "string"
+				},
+				"image": {
+					"type": "string"
+				},
+				"address": {
+					"$ref": "address.json#/definitions/address"
+				}
+			},
+			"required": ["firstName", "lastName", "moduleId"]
+		}
+	}
 }

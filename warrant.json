@@ -1,21 +1,45 @@
 {
- "definitions": {
- "warrant": {
- "type": "object",
- "properties": {
- "id": { "type": "string" },
- "moduleid": { "type": "number" },
- "url": { "type": "string" },
- "atlasExpiryDate": { "type": "string" },
- "contributor": { "$ref": "contributor.json#/definitions/contributor" },
- "canceledOnDate": { "type": "string" },
- "expiresOnDate": { "type": "string" },
- "servedOnDate": { "type": "string" },
- "name": { "$ref": "name.json#/definitions/name" },
- "offenses": { "type": [ { "$ref": "offense.json#/definitions/offense" } ] }
- },
- "required": [ "name", "moduleid", "contributor", "canceledOnDate", "expiresOnDate",
-"servedOnDate" ]
- }
- }
+	"definitions": {
+		"warrant": {
+		  "id": {
+					"type": "string"
+				},
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"moduleId": {
+					"type": "string"
+				},
+				"url": {
+					"type": "string"
+				},
+				"atlasExpiryDate": {
+					"type": "string"
+				},
+				"canceledOnDate": {
+					"type": "string"
+				},
+				"expiresOnDate": {
+					"type": "string"
+				},
+				"servedOnDate": {
+					"type": "string"
+				},
+				"name": {
+					"$ref": "name.json#/definitions/name"
+				},
+				"offenses": {
+					"type": "array",
+					"items": {
+						"$ref": "offense.json#/definitions/offense"
+					}
+				}
+			},
+			"required": ["name", "moduleId","canceledOnDate", "expiresOnDate",
+				"servedOnDate"
+			]
+		}
+	}
 }
