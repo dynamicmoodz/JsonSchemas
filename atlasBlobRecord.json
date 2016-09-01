@@ -23,9 +23,9 @@
 					"oneOf": [{
 						"$ref": "incident.json#/definitions/incident"
 					}, {
-						"$ref": "contributor.json#/definitions/sexoffender"
+						"$ref": "sexoffender.json#/definitions/sexoffender"
 					}, {
-						"$ref": "contributor.json#/definitions/warrant"
+						"$ref": "warrant.json#/definitions/warrant"
 					}]
 				}
 			},
