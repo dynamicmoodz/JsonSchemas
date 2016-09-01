@@ -1,9 +1,6 @@
 {
 	"definitions": {
 		"warrant": {
-		  "id": {
-					"type": "string"
-				},
 			"type": "object",
 			"properties": {
 				"moduleId": {

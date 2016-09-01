@@ -1,9 +1,6 @@
 {
 	"definitions": {
 		"sexoffender": {
-			"id": {
-				"type": "string"
-			},
 			"type": "object",
 			"properties": {
 				"moduleId": {

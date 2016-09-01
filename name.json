@@ -1,7 +1,6 @@
 {
 	"definitions": {
 		"name": {
- 			"id": { "type": "string" },
 			"type": "object",
 			"properties": {
 				"moduleId": {
