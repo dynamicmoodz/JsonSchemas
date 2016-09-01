@@ -1,17 +1,34 @@
 {
- "definitions": {
- "incident": {
- "type": "object",
- "properties": {
- "moduleid": { "type": "number" },
- "url": { "type": "string" },
- "atlasExpiryDate": { "type": "string" },
- "date": { "type": "string" },
- "description": { "type": "string" },
- "address": { "$ref": "address.json#/definitions/address" },
-  "offenses": { "$ref": "offense.json#/definitions/offense" }
- },
- "required": ["address", "moduleid" ]
- }
- }
+	"definitions": {
+		"incident": {
+			"type": "object",
+			"properties": {
+				"moduleid": {
+					"type": "number"
+				},
+				"url": {
+					"type": "string"
+				},
+				"atlasExpiryDate": {
+					"type": "string"
+				},
+				"date": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"address": {
+					"$ref": "address.json#/definitions/address"
+				},
+				"offenses": {
+					"type": "array",
+					"items": {
+						"$ref": "offense.json#/definitions/offense"
+					}
+				}
+			},
+			"required": ["address", "moduleid"]
+		}
+	}
 }
