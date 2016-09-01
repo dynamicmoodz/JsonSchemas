@@ -4,9 +4,6 @@
  			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/incident.json",
 			"type": "object",
 			"properties": {
-				"id": {
-					"type": "string"
-				},
 				"moduleId": {
 					"type": "string"
 				},
