@@ -6,9 +6,6 @@
 			},
 			"type": "object",
 			"properties": {
-				"id": {
-					"type": "string"
-				},
 				"moduleId": {
 					"type": "string"
 				},
