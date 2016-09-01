@@ -1,11 +1,11 @@
 {
-	"definitions": {
-		"sexoffender": {
-			"type": "object",
-			"properties": {
-				"moduleId": {
-					"type": "string"
-				},
+"definitions": {
+"sexoffender": {
+"type": "object",
+"properties": {
+"moduleId": {
+"type": "string"
+},
 				"url": {
 					"type": "string"
 				},
@@ -17,12 +17,6 @@
 				},
 				"name": {
 					"$ref": "name.json#/definitions/name"
-				},
-				"offenses": {
-					"type": "array",
-					"items": {
-						"$ref": "offense.json#/definitions/offense"
-					}
 				}
 			},
 			"required": ["name", "moduleId"]

@@ -1,8 +1,14 @@
 {
 	"definitions": {
 		"address": {
+			"id": {
+				"type": "string"
+			},
 			"type": "object",
 			"properties": {
+				"id": {
+					"type": "string"
+				},
 				"moduleId": {
 					"type": "string"
 				},
