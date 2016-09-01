@@ -3,7 +3,6 @@
  "incident": {
  "type": "object",
  "properties": {
- "id": { "type": "string" },
  "moduleid": { "type": "number" },
  "url": { "type": "string" },
  "atlasExpiryDate": { "type": "string" },
