@@ -9,7 +9,7 @@
  "date": { "type": "string" },
  "description": { "type": "string" },
  "address": { "$ref": "address.json#/definitions/address" },
- "offenses": { [ { "$ref": "offense.json#/definitions/offense" } ] }
+  "offenses": { "$ref": "offense.json#/definitions/offense" }
  },
  "required": ["address", "moduleid" ]
  }
