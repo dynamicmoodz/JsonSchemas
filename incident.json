@@ -5,7 +5,7 @@
 			"type": "object",
 			"properties": {
 				"moduleId": {
-					"type": "number"
+					"type": "string"
 				},
 				"url": {
 					"type": "string"
