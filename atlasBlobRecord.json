@@ -2,42 +2,45 @@
 	"definitions": {
 		"atlasBlobRecord": {
 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/",
-			"type": "object",
-			"properties": {
-				"recordId": {
-					"type": "string"
+			"type": "array",
+			"items": {
+				"properties": {
+					"recordId": {
+						"type": "string"
+					},
+					"dbOperationType": {
+						"type": "string"
+					},
+					"schema": {
+						"type": "string"
+					},
+					"schemaVersion": {
+						"type": "string"
+					},
+					"utcTimeStamp": {
+						"type": "string"
+					},
+					"dataRecord": {
+						"type": "object",
+						"anyOf": [{
+							"$ref": "incident.json#/definitions/incident"
+						}, {
+							"$ref": "sexoffender.json#/definitions/sexoffender"
+						}, {
+							"$ref": "warrant.json#/definitions/warrant"
+						}]
+					}
 				},
-				"dbOperationType": {
-					"type": "string"
-				},
-				"schema": {
-					"type": "string"
-				},
-				"schemaVersion": {
-					"type": "string"
-				},
-				"utcTimeStamp": {
-					"type": "string"
-				},
-				"dataRecord": {
-					"oneOf": [{
-						"$ref": "incident.json#/definitions/incident"
-					}, {
-						"$ref": "sexoffender.json#/definitions/sexoffender"
-					}, {
-						"$ref": "warrant.json#/definitions/warrant"
-					}]
-				}
-			},
-			"additionalProperties": false,
-			"required": [
-				"recordId",
-				"dbOperationType",
-				"schema",
-				"schemaVersion",
-				"utcTimeStamp",
-				"dataRecord"
-			]
+				"additionalProperties": false,
+				"required": [
+					"recordId",
+					"dbOperationType",
+					"schema",
+					"schemaVersion",
+					"utcTimeStamp",
+					"dataRecord"
+				]
+			}
 		}
 	}
 }
