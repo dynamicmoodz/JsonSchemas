@@ -6,9 +6,9 @@
 			"properties": {
 				"atlasExpiryDate": {
 					"type": "string"
-				},
-				"required": ["atlasExpiryData"]
-			}
+				}
+			},
+			"required": ["atlasExpiryData"]
 		}
 	}
 }
