@@ -1,4 +1,6 @@
 {
+	"definitions": {
+		"atlasBlobRecord": {
 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/",
 			"type": "array",
 			"items": {
@@ -26,6 +28,8 @@
 							"$ref": "sexoffender.json#/definitions/sexoffender"
 						}, {
 							"$ref": "warrant.json#/definitions/warrant"
+						}, {
+							"$ref": "atlasDeleteRecord.json#/definitions/atlasDeleteRecord"
 						}]
 					}
 				},
@@ -40,3 +44,5 @@
 				]
 			}
 		}
+	}
+}

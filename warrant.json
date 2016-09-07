@@ -32,7 +32,7 @@
 					}
 				}
 			},
-			"required": ["name", "moduleId","canceledOnDate", "expiresOnDate",
+			"required": ["atlasExpiryDate","name", "moduleId","canceledOnDate", "expiresOnDate",
 				"servedOnDate"
 			]
 		}

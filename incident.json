@@ -29,7 +29,7 @@
 					}
 				}
 			},
-			"required": ["address", "moduleId"]
+			"required": ["address", "moduleId", "atlasExpiryDate"]
 		}
 	}
 }
