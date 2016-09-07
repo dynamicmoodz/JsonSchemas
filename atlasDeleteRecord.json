@@ -1,14 +1,14 @@
 {
 	"definitions": {
 		"atlasDeleteRecord": {
-		  "id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/atlasDeleteRecord.json",
+			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/atlasDeleteRecord.json",
 			"type": "object",
 			"properties": {
 				"atlasExpiryDate": {
 					"type": "string"
-				}
-			"required": ["atlasExpiryData"
-			]
+				},
+				"required": ["atlasExpiryData"]
+			}
 		}
 	}
 }
