@@ -1,39 +1,39 @@
 {
-	'definitions': {
-		'warrant': {
-		  'id': 'https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/warrant.json',
-			'type': 'object',
-			'properties': {
-				'moduleId': {
-					'type': 'string'
+	"definitions": {
+		"warrant": {
+		  "id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/warrant.json",
+			"type": "object",
+			"properties": {
+				"moduleId": {
+					"type": "string"
 				},
-				'url': {
-					'type': 'string'
+				"url": {
+					"type": "string"
 				},
-				'atlasExpiryDate': {
-					'type': 'string'
+				"atlasExpiryDate": {
+					"type": "string"
 				},
-				'canceledOnDate': {
-					'type': 'string'
+				"canceledOnDate": {
+					"type": "string"
 				},
-				'expiresOnDate': {
-					'type': 'string'
+				"expiresOnDate": {
+					"type": "string"
 				},
-				'servedOnDate': {
-					'type': 'string'
+				"servedOnDate": {
+					"type": "string"
 				},
-				'name': {
-					'$ref': 'name.json#/definitions/name'
+				"name": {
+					"$ref": "name.json#/definitions/name"
 				},
-				'offenses': {
-					'type': 'array',
-					'items': {
-						'$ref': 'offense.json#/definitions/offense'
+				"offenses": {
+					"type": "array",
+					"items": {
+						"$ref": "offense.json#/definitions/offense"
 					}
 				}
 			},
-			'required': ['atlasExpiryDate','name', 'moduleId','canceledOnDate', 'expiresOnDate',
-				'servedOnDate'
+			"required": ["atlasExpiryDate","name", "moduleId","canceledOnDate", "expiresOnDate",
+				"servedOnDate"
 			]
 		}
 	}

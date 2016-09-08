@@ -1,29 +1,29 @@
 {
-	'definitions': {
-		'offense': {
-			'id': 'https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/offense.json',
-			'type': 'object',
-			'properties': {
-				'moduleId': {
-					'type': 'string'
+	"definitions": {
+		"offense": {
+			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/offense.json",
+			"type": "object",
+			"properties": {
+				"moduleId": {
+					"type": "string"
 				},
-				'url': {
-					'type': 'string'
+				"url": {
+					"type": "string"
 				},
-				'atlasExpiryDate': {
-					'type': 'string'
+				"atlasExpiryDate": {
+					"type": "string"
 				},
-				'code': {
-					'type': 'string'
+				"code": {
+					"type": "string"
 				},
-				'description': {
-					'type': 'string'
+				"description": {
+					"type": "string"
 				},
-				'nibrDescription': {
-					'type': 'string'
+				"nibrDescription": {
+					"type": "string"
 				}
 			},
-			'required': ['code', 'description', 'moduleId', 'nibrDescription']
+			"required": ["code", "description", "moduleId", "nibrDescription"]
 		}
 	}
 }

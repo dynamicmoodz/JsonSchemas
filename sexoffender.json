@@ -1,32 +1,32 @@
 {
-	'definitions': {
-		'sexoffender': {
-			'id': 'https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/sexoffender.json',
-			'type': 'object',
-			'properties': {
-				'moduleId': {
-					'type': 'string'
+	"definitions": {
+		"sexoffender": {
+			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/sexoffender.json",
+			"type": "object",
+			"properties": {
+				"moduleId": {
+					"type": "string"
 				},
-				'url': {
-					'type': 'string'
+				"url": {
+					"type": "string"
 				},
-				'atlasExpiryDate': {
-					'type': 'string'
+				"atlasExpiryDate": {
+					"type": "string"
 				},
-				'risk': {
-					'type': 'string'
+				"risk": {
+					"type": "string"
 				},
-				'name': {
-					'$ref': 'name.json#/definitions/name'
+				"name": {
+					"$ref": "name.json#/definitions/name"
 				},
-				'offenses': {
-					'type': 'array',
-					'items': {
-						'$ref': 'offense.json#/definitions/offense'
+				"offenses": {
+					"type": "array",
+					"items": {
+						"$ref": "offense.json#/definitions/offense"
 					}
 				}
 			},
-			'required': ['atlasExpiryDate','name', 'moduleId']
+			"required": ["atlasExpiryDate","name", "moduleId"]
 		}
 	}
 }
