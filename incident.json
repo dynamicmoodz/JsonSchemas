@@ -1,35 +1,35 @@
 {
-	"definitions": {
-		"incident": {
- 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/incident.json",
-			"type": "object",
-			"properties": {
-				"moduleId": {
-					"type": "string"
+	'definitions': {
+		'incident': {
+ 			'id': 'https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/incident.json',
+			'type': 'object',
+			'properties': {
+				'moduleId': {
+					'type': 'string'
 				},
-				"url": {
-					"type": "string"
+				'url': {
+					'type': 'string'
 				},
-				"atlasExpiryDate": {
-					"type": "string"
+				'atlasExpiryDate': {
+					'type': 'string'
 				},
-				"date": {
-					"type": "string"
+				'date': {
+					'type': 'string'
 				},
-				"description": {
-					"type": "string"
+				'description': {
+					'type': 'string'
 				},
-				"address": {
-					"$ref": "address.json#/definitions/address"
+				'address': {
+					'$ref': 'address.json#/definitions/address'
 				},
-				"offenses": {
-					"type": "array",
-					"items": {
-						"$ref": "offense.json#/definitions/offense"
+				'offenses': {
+					'type': 'array',
+					'items': {
+						'$ref': 'offense.json#/definitions/offense'
 					}
 				}
 			},
-			"required": ["address", "moduleId", "atlasExpiryDate"]
+			'required': ['address', 'moduleId', 'atlasExpiryDate']
 		}
 	}
 }

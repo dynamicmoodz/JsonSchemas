@@ -1,62 +1,62 @@
 {
-	"definitions": {
-		"address": {
-			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/address.json",
-			"type": "object",
-			"properties": {
-				"moduleId": {
-					"type": "string"
+	'definitions': {
+		'address': {
+			'id': 'https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/address.json',
+			'type': 'object',
+			'properties': {
+				'moduleId': {
+					'type': 'string'
 				},
-				"url": {
-					"type": "string"
+				'url': {
+					'type': 'string'
 				},
-				"atlasExpiryDate": {
-					"type": "string"
+				'atlasExpiryDate': {
+					'type': 'string'
 				},
-				"block": {
-					"type": "number"
+				'block': {
+					'type': 'number'
 				},
-				"preDirection": {
-					"type": "string"
+				'preDirection': {
+					'type': 'string'
 				},
-				"streetName": {
-					"type": "string"
+				'streetName': {
+					'type': 'string'
 				},
-				"streetType": {
-					"type": "string"
+				'streetType': {
+					'type': 'string'
 				},
-				"postDirection": {
-					"type": "string"
+				'postDirection': {
+					'type': 'string'
 				},
-				"landmark": {
-					"type": "string"
+				'landmark': {
+					'type': 'string'
 				},
-				"latitude": {
-					"type": "number"
+				'latitude': {
+					'type': 'number'
 				},
-				"longitude": {
-					"type": "number"
+				'longitude': {
+					'type': 'number'
 				},
-				"crossStreet1": {
-					"type": "string"
+				'crossStreet1': {
+					'type': 'string'
 				},
-				"crossStreet2": {
-					"type": "string"
+				'crossStreet2': {
+					'type': 'string'
 				},
-				"city": {
-					"type": "string"
+				'city': {
+					'type': 'string'
 				},
-				"state": {
-					"type": "string"
+				'state': {
+					'type': 'string'
 				},
-				"zipcode": {
-					"type": "string"
+				'zipcode': {
+					'type': 'string'
 				},
-				"type": {
-					"enum": ["residential", "business"]
+				'type': {
+					'enum': ['residential', 'business']
 				}
 			},
-			"required": ["block", "streetName", "city", "state", "zipcode", "moduleId"]
+			'required': ['block', 'streetName', 'city', 'state', 'zipcode', 'moduleId']
 		}
 	}
 }

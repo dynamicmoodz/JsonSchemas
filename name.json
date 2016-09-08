@@ -1,41 +1,41 @@
 {
-	"definitions": {
-		"name": {
- 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/name.json",
-			"type": "object",
-			"properties": {
-				"moduleId": {
-					"type": "string"
+	'definitions': {
+		'name': {
+ 			'id': 'https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/name.json',
+			'type': 'object',
+			'properties': {
+				'moduleId': {
+					'type': 'string'
 				},
-				"url": {
-					"type": "string"
+				'url': {
+					'type': 'string'
 				},
-				"atlasExpiryDate": {
-					"type": "string"
+				'atlasExpiryDate': {
+					'type': 'string'
 				},
-				"firstName": {
-					"type": "string"
+				'firstName': {
+					'type': 'string'
 				},
-				"middleName": {
-					"type": "string"
+				'middleName': {
+					'type': 'string'
 				},
-				"lastName": {
-					"type": "string"
+				'lastName': {
+					'type': 'string'
 				},
-				"fullName": {
-					"type": "string"
+				'fullName': {
+					'type': 'string'
 				},
-				"suffix": {
-					"type": "string"
+				'suffix': {
+					'type': 'string'
 				},
-				"image": {
-					"type": "string"
+				'image': {
+					'type': 'string'
 				},
-				"address": {
-					"$ref": "address.json#/definitions/address"
+				'address': {
+					'$ref': 'address.json#/definitions/address'
 				}
 			},
-			"required": ["firstName", "lastName", "moduleId"]
+			'required': ['firstName', 'lastName', 'moduleId']
 		}
 	}
 }
