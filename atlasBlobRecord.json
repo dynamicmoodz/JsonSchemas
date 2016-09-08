@@ -1,6 +1,4 @@
 {
-	"definitions": {
-		"atlasBlobRecord": {
 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/",
 			"type": "array",
 			"items": {
@@ -44,5 +42,3 @@
 				]
 			}
 		}
-	}
-}
