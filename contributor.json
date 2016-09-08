@@ -1,6 +1,4 @@
 {
-	"definitions": {
-		"contributor": {
 			"type": "object",
 			"properties": {
 				"id": {
@@ -18,5 +16,3 @@
 			},
 			"required": ["productID", "customerID"]
 		}
-	}
-}
