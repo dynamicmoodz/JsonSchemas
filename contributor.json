@@ -1,0 +1,22 @@
+{
+	"definitions": {
+		"contributor": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "string"
+				},
+				"productID": {
+					"type": "string"
+				},
+				"customerID": {
+					"type": "string"
+				},
+				"atlasExpiryDate": {
+					"type": "string"
+				}
+			},
+			"required": ["productID", "customerID"]
+		}
+	}
+}
