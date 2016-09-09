@@ -1,16 +1,12 @@
 {
 	"definitions": {
 		"address": {
-			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/address.json",
 			"type": "object",
 			"properties": {
 				"moduleId": {
 					"type": "string"
 				},
 				"url": {
-					"type": "string"
-				},
-				"atlasExpiryDate": {
 					"type": "string"
 				},
 				"block": {

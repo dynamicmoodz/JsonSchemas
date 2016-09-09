@@ -10,9 +10,6 @@
 				"url": {
 					"type": "string"
 				},
-				"atlasExpiryDate": {
-					"type": "string"
-				},
 				"firstName": {
 					"type": "string"
 				},
