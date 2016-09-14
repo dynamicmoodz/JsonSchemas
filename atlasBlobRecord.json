@@ -16,7 +16,8 @@
 						"type": "string"
 					},
 					"utcTimeStamp": {
-						"type": "string"
+						"type": "string",
+						"format": "date-time"
 					},
 					"dataRecord": {
 						"type": "object",

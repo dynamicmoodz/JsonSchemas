@@ -4,14 +4,12 @@
 			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/sexoffender.json",
 			"type": "object",
 			"properties": {
-				"moduleId": {
-					"type": "string"
-				},
 				"url": {
 					"type": "string"
 				},
 				"atlasExpiryDate": {
-					"type": "string"
+					"type": "string",
+					"format": "date-time"
 				},
 				"risk": {
 					"type": "string"
@@ -26,7 +24,7 @@
 					}
 				}
 			},
-			"required": ["atlasExpiryDate","name", "moduleId"]
+			"required": ["atlasExpiryDate","name"]
 		}
 	}
 }

@@ -4,14 +4,12 @@
 		  "id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/warrant.json",
 			"type": "object",
 			"properties": {
-				"moduleId": {
-					"type": "string"
-				},
 				"url": {
 					"type": "string"
 				},
 				"atlasExpiryDate": {
-					"type": "string"
+					"type": "string",
+					"format": "date-time"
 				},
 				"canceledOnDate": {
 					"type": "string"
@@ -32,7 +30,7 @@
 					}
 				}
 			},
-			"required": ["atlasExpiryDate","name", "moduleId","canceledOnDate", "expiresOnDate",
+			"required": ["atlasExpiryDate","name","canceledOnDate", "expiresOnDate",
 				"servedOnDate"
 			]
 		}

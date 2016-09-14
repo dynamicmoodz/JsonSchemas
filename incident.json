@@ -4,14 +4,12 @@
  			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/incident.json",
 			"type": "object",
 			"properties": {
-				"moduleId": {
-					"type": "string"
-				},
 				"url": {
 					"type": "string"
 				},
 				"atlasExpiryDate": {
-					"type": "string"
+					"type": "string",
+					"format": "date-time"
 				},
 				"date": {
 					"type": "string"
@@ -29,7 +27,7 @@
 					}
 				}
 			},
-			"required": ["address", "moduleId", "atlasExpiryDate"]
+			"required": ["address", "atlasExpiryDate"]
 		}
 	}
 }
