@@ -16,8 +16,7 @@
 					"type": "string"
 				}
 			},
-			"required": ["code", "description", "nibrDescription"],
-			"additionalProperties": false
+			"required": ["code", "description", "nibrDescription"]
 		}
 	}
 }

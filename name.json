@@ -29,8 +29,7 @@
 					"$ref": "address.json#/definitions/address"
 				}
 			},
-			"required": ["firstName", "lastName"],
-			"additionalProperties": false
+			"required": ["firstName", "lastName"]
 		}
 	}
 }

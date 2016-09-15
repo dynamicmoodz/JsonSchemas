@@ -23,8 +23,7 @@
 					}
 				}
 			},
-			"required": ["address"],
-			"additionalProperties": false
+			"required": ["address"]
 		}
 	}
 }
