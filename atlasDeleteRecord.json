@@ -3,13 +3,11 @@
 		"atlasDeleteRecord": {
 			"type": "object",
 			"properties": {
-				"atlasExpiryDate": {
-					"type": "string",
-					"format": "date-time"
+				"message": {
+					"type": "string"
 				}
 			},
 			"additionalProperties": false,
-			"required": ["atlasExpiryDate"]
 		}
 	}
 }
