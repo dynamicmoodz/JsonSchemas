@@ -20,7 +20,8 @@
 					}
 				}
 			},
-			"required": ["name"]
+			"required": ["name"],
+			"additionalProperties": false
 		}
 	}
 }

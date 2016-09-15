@@ -49,7 +49,8 @@
 					"enum": ["residential", "business"]
 				}
 			},
-			"required": ["block", "streetName", "city", "state", "zipcode"]
+			"required": ["block", "streetName", "city", "state", "zipcode"],
+			"additionalProperties": false
 		}
 	}
 }
