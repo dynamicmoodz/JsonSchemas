@@ -3,9 +3,6 @@
 		"address": {
 			"type": "object",
 			"properties": {
-				"moduleId": {
-					"type": "string"
-				},
 				"url": {
 					"type": "string"
 				},
@@ -52,7 +49,7 @@
 					"enum": ["residential", "business"]
 				}
 			},
-			"required": ["block", "streetName", "city", "state", "zipcode", "moduleId"]
+			"required": ["block", "streetName", "city", "state", "zipcode"]
 		}
 	}
 }

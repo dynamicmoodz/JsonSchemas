@@ -7,10 +7,6 @@
 				"url": {
 					"type": "string"
 				},
-				"atlasExpiryDate": {
-					"type": "string",
-					"format": "date-time"
-				},
 				"date": {
 					"type": "string"
 				},
@@ -27,7 +23,7 @@
 					}
 				}
 			},
-			"required": ["address", "atlasExpiryDate"]
+			"required": ["address"]
 		}
 	}
 }

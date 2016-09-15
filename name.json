@@ -4,9 +4,6 @@
  			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/name.json",
 			"type": "object",
 			"properties": {
-				"moduleId": {
-					"type": "string"
-				},
 				"url": {
 					"type": "string"
 				},
@@ -32,7 +29,7 @@
 					"$ref": "address.json#/definitions/address"
 				}
 			},
-			"required": ["firstName", "lastName", "moduleId"]
+			"required": ["firstName", "lastName"]
 		}
 	}
 }

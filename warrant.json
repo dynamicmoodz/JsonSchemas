@@ -7,10 +7,6 @@
 				"url": {
 					"type": "string"
 				},
-				"atlasExpiryDate": {
-					"type": "string",
-					"format": "date-time"
-				},
 				"canceledOnDate": {
 					"type": "string"
 				},
@@ -30,7 +26,7 @@
 					}
 				}
 			},
-			"required": ["atlasExpiryDate","name","canceledOnDate", "expiresOnDate",
+			"required": ["name","canceledOnDate", "expiresOnDate",
 				"servedOnDate"
 			]
 		}
