@@ -1,0 +1,21 @@
+{
+	"definitions": {
+		"owners": {
+			"type": "object",
+			"id": {
+				"type": "string"
+			},
+			"properties": {
+				"primary": {
+					"type": "boolean"
+				},
+				"name": {
+					"$ref": "name.json#/definitions/name"
+				}
+			},
+			"required": ["primary", " name "]
+
+		}
+	}
+
+}

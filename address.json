@@ -45,7 +45,7 @@
 				"zipcode": {
 					"type": "string"
 				},
-				"type": {
+				"addressType": {
 					"enum": ["residential", "business"]
 				}
 			},

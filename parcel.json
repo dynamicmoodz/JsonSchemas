@@ -1,0 +1,36 @@
+{
+	"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/",
+	"type": "object",
+	"properties": {
+		"accountNumber": {
+			"type": "string"
+		},
+		"parcelNumber": {
+			"type": "string"
+		},
+		"propertyType": {
+			"type": "string"
+		},
+		"owners": {
+			"type": "array",
+			"items": {
+				"$ref": "owners.json#/definitions/owners"
+			}
+		},
+		"parcelInventory": {
+			"$ref": "parcelInventory.json#/definitions/parcel"
+		},
+		"value": {
+			"$ref": "value.json#/definitions/value"
+		},
+		"address": {
+			"$ref": "address.json#/definitions/address"
+
+		},
+		"tax": {
+			"$ref": "tax.json#/definitions/tax"
+		}
+	},
+	"required": ["accountNumber", "parcelNumber", "address"]
+
+}

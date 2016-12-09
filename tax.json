@@ -1,0 +1,16 @@
+{
+	"definitions": {
+		"tax": {
+			"type": "object",
+			"properties": {
+				"taxYear": {
+					"type": "number"
+				},
+				"taxAmount": {
+					"type": "number"
+				}
+
+			}
+		}
+	}
+}

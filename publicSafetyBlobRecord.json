@@ -1,0 +1,50 @@
+{
+			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/",
+			"type": "array",
+			"items": {
+				"properties": {
+					"recordId": {
+						"type": "string"
+					},
+					"dbOperationType": {
+						"type": "string"
+					},
+					"schema": {
+						"type": "string"
+					},
+					"schemaVersion": {
+						"type": "string"
+					},
+					"utcTimeStamp": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"atlasExpiryDate": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"dataRecord": {
+						"type": "object",
+						"anyOf": [{
+							"$ref": "incident.json#/definitions/incident"
+						}, {
+							"$ref": "sexoffender.json#/definitions/sexoffender"
+						}, {
+							"$ref": "warrant.json#/definitions/warrant"
+						}, {
+							"$ref": "atlasDeleteRecord.json#/definitions/atlasDeleteRecord"
+						}]
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"recordId",
+					"dbOperationType",
+					"schema",
+					"schemaVersion",
+					"utcTimeStamp",
+					"atlasExpiryDate",
+					"dataRecord"
+				]
+			}
+		}

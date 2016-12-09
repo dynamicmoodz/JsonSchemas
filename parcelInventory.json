@@ -1,22 +1,25 @@
 {
 	"definitions": {
-		"offense": {
+		"parceInventory": {
 			"type": "object",
 			"properties": {
-				"url": {
+				"architecturalStyle": {
 					"type": "string"
 				},
-				"code": {
+				"yearBuilt": {
 					"type": "string"
 				},
-				"description": {
+				"livingSqFt": {
+					"type": "number"
+				},
+				"bedrooms": {
 					"type": "string"
 				},
-				"nibrDescription": {
+				"baths": {
 					"type": "string"
 				}
 			},
-			"required": ["code", "description", "nibrDescription"]
+			"required": ["architecturalStyle"]
 		}
 	}
 }

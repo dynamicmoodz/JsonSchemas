@@ -1,0 +1,44 @@
+{
+			"id": "https://raw.githubusercontent.com/dynamicmoodz/JsonSchemas/master/",
+			"type": "array",
+			"items": {
+				"properties": {
+					"recordId": {
+						"type": "string"
+					},
+					"dbOperationType": {
+						"type": "string"
+					},
+					"schema": {
+						"type": "string"
+					},
+					"schemaVersion": {
+						"type": "string"
+					},
+					"utcTimeStamp": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"atlasExpiryDate": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"dataRecord": {
+						"type": "object",
+						"anyOf": [{
+							"$ref": "parcel.json#/definitions/parcel"
+						}]
+					}
+				},
+				"additionalProperties": false,
+				"required": [
+					"recordId",
+					"dbOperationType",
+					"schema",
+					"schemaVersion",
+					"utcTimeStamp",
+					"atlasExpiryDate",
+					"dataRecord"
+				]
+			}
+		}

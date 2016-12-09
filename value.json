@@ -1,0 +1,15 @@
+{
+	"definitions": {
+		"value": {
+			"type": "object",
+			"properties": {
+				"valuationYear": {
+					"type": "number"
+				},
+				"assessedValue": {
+					"type": "number"
+				}
+			}
+		}
+	}
+}
