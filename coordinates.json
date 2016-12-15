@@ -13,7 +13,7 @@
 					"type": "string"
 				}
 			},
-			"required": ["latitude ", "longitude", " projection"]
+			"required": ["latitude","longitude","projection"]
 		}
 	}
 }
