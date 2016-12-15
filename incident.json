@@ -14,7 +14,13 @@
 					"type": "string"
 				},
 				"address": {
-					"$ref": "address.json#/definitions/address"
+					"type": "object",
+					"anyOf": [{
+						"$ref": "address.json#/definitions/address"
+					}, {
+						"$ref": "coordinates.json#/definitions/coordinates"
+					}]
+
 				},
 				"offenses": {
 					"type": "array",
