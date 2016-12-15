@@ -3,37 +3,7 @@
 		"address": {
 			"type": "object",
 			"properties": {
-				"url": {
-					"type": "string"
-				},
-				"block": {
-					"type": "number"
-				},
-				"preDirection": {
-					"type": "string"
-				},
-				"streetName": {
-					"type": "string"
-				},
-				"streetType": {
-					"type": "string"
-				},
-				"postDirection": {
-					"type": "string"
-				},
-				"landmark": {
-					"type": "string"
-				},
-				"latitude": {
-					"type": "number"
-				},
-				"longitude": {
-					"type": "number"
-				},
-				"crossStreet1": {
-					"type": "string"
-				},
-				"crossStreet2": {
+				"addressString": {
 					"type": "string"
 				},
 				"city": {
@@ -45,11 +15,14 @@
 				"zipcode": {
 					"type": "string"
 				},
+				"country": {
+					"type": "string"
+				},
 				"addressType": {
 					"enum": ["residential", "business"]
 				}
 			},
-			"required": ["block", "streetName", "city", "state", "zipcode"]
+			"required": ["addressString", "city", "state", "zipcode"]
 		}
 	}
 }

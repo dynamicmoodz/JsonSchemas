@@ -1,0 +1,19 @@
+{
+	"definitions": {
+		"coordinates": {
+			"type": "object",
+			"properties": {
+				"latitude": {
+					"type": "number"
+				},
+				"longitude": {
+					"type": "number"
+				},
+				"projection": {
+					"type": "string"
+				}
+			},
+			"required": ["latitude ", "longitude", " projection"]
+		}
+	}
+}
