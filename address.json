@@ -22,7 +22,8 @@
 					"enum": ["residential", "business"]
 				}
 			},
-			"required": ["addressString", "city", "state", "zipcode"]
+			"required": ["addressString", "city", "state", "zipcode"],
+			"additionalProperties": false
 		}
 	}
 }
